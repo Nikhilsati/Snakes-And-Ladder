@@ -1,0 +1,7 @@
+Language - Vanilla JavaScript
+Single Player 
+
+Green - Snake Head
+Red - Snake Tail
+Pink - Ladder Top
+Blue - Ladder base

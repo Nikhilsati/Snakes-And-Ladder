@@ -1,0 +1,62 @@
+
+.board-out {
+    width: auto;
+    text-align: center;
+    background: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.row {
+    
+}
+.cube {
+    background: #527699;
+    border-color: black;
+    width: 55px;
+    height: 55px;
+    border-radius: 15px;
+    margin: 5px 1px 1px 1px;
+    
+}
+.cube-row {
+    display: inline-flex;
+}
+.number {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    color: white;
+}
+.butn {
+    margin-top: 7px;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 20px;
+}
+
+.dicebutn {
+    text-align :center;
+    background: #527699;
+    border-color: black;
+    font-size: 30px;
+    width: 55px;
+    height: 55px;
+    border-radius: 15px;
+    margin: 50px 10px 10px 100px;
+}
+.snake-head {
+    background: green;
+}
+.snake-tail {
+    background : brown;
+}
+.ladder-start {
+    background: blue;
+}
+.ladder-end {
+    background: pink;
+}

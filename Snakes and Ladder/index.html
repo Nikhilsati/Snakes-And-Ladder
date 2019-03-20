@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Snakes And Ladders</title>
+</head>
+<body>
+   
+    <div class="board-out" id="board">
+      <img src="C__fakepath_kisspng-rattlesnake-vipers-clip-art-cartoon-snake-cliparts-5a794d30a70395.6038923215178990566841.png" alt="">
+       <div class="row">
+            <div class="cube cube-row" id = "cube-100"><span class = "number"><p>100 </p></span></div>
+            <div class="cube cube-row snake-head" id = "cube-99"><span class = "number"><p>99 </p></span></div>
+            <div class="cube cube-row" id = "cube-98"><span class = "number"><p>98 </p></span></div>
+            <div class="cube cube-row ladder-end" id = "cube-97"><span class = "number"><p>97 </p></span></div>
+            <div class="cube cube-row" id = "cube-96"><span class = "number"><p>96</p></span></div>
+            <div class="cube cube-row" id = "cube-95"><span class = "number"><p>95</p></span></div>
+            <div class="cube cube-row" id = "cube-94"><span class = "number"><p>94 </p></span></div>
+            <div class="cube cube-row" id = "cube-93"><span class = "number"><p>93 </p></span></div>
+            <div class="cube cube-row" id = "cube-92"><span class = "number"><p>92 </p></span></div>
+            <div class="cube cube-row" id = "cube-91"><span class = "number"><p>91 </p></span></div>
+        </div>
+        <div class="row">
+            <div class="cube cube-row ladder-end" id = "cube-81"><span class = "number"><p>81 </p></span></div>
+            <div class="cube cube-row" id = "cube-82"><span class = "number"><p>82 </p></span></div>
+            <div class="cube cube-row" id = "cube-83"><span class = "number"><p>83 </p></span></div>
+            <div class="cube cube-row" id = "cube-84"><span class = "number"><p>84 </p></span></div>
+            <div class="cube cube-row" id = "cube-85"><span class = "number"><p>85</p></span></div>
+            <div class="cube cube-row" id = "cube-86"><span class = "number"><p>86</p></span></div>
+            <div class="cube cube-row ladder-end" id = "cube-87"><span class = "number"><p>87 </p></span></div>
+            <div class="cube cube-row snake-head" id = "cube-88"><span class = "number"><p>88 </p></span></div>
+            <div class="cube cube-row" id = "cube-89"><span class = "number"><p>89 </p></span></div>
+            <div class="cube cube-row" id = "cube-90"><span class = "number"><p>90 </p></span></div>
+        </div>
+        <div class="row">
+            <div class="cube cube-row" id = "cube-80"><span class = "number"><p> 80</p></span></div>
+            <div class="cube cube-row" id = "cube-79"><span class = "number"><p> 79</p></span></div>
+            <div class="cube cube-row" id = "cube-78"><span class = "number"><p> 78</p></span></div>
+            <div class="cube cube-row" id = "cube-77"><span class = "number"><p> 77</p></span></div>
+            <div class="cube cube-row" id = "cube-76"><span class = "number"><p> 76</p></span></div>
+            <div class="cube cube-row" id = "cube-75"><span class = "number"><p> 75</p></span></div>
+            <div class="cube cube-row" id = "cube-74"><span class = "number"><p> 74</p></span></div>
+            <div class="cube cube-row" id = "cube-73"><span class = "number"><p> 73</p></span></div>
+            <div class="cube cube-row" id = "cube-72"><span class = "number"><p> 72</p></span></div>
+            <div class="cube cube-row snake-head" id = "cube-71"><span class = "number"><p> 71</p></span></div>
+        </div><div class="row">
+            <div class="cube cube-row" id = "cube-61"><span class = "number"><p> 61</p></span></div>
+            <div class="cube cube-row" id = "cube-62"><span class = "number"><p> 62</p></span></div>
+            <div class="cube cube-row" id = "cube-63"><span class = "number"><p> 63</p></span></div>
+            <div class="cube cube-row" id = "cube-64"><span class = "number"><p> 64</p></span></div>
+            <div class="cube cube-row" id = "cube-65"><span class = "number"><p> 65</p></span></div>
+            <div class="cube cube-row ladder-start" id = "cube-66"><span class = "number"><p> 66</p></span></div>
+            <div class="cube cube-row" id = "cube-67"><span class = "number"><p> 67</p></span></div>
+            <div class="cube cube-row" id = "cube-68"><span class = "number"><p> 68</p></span></div>
+            <div class="cube cube-row" id = "cube-69"><span class = "number"><p> 69</p></span></div>
+            <div class="cube cube-row" id = "cube-70"><span class = "number"><p> 70</p></span></div>
+        </div><div class="row">
+            <div class="cube cube-row" id = "cube-60"><span class = "number"><p> 60</p></span></div>
+            <div class="cube cube-row" id = "cube-59"><span class = "number"><p> 59</p></span></div>
+            <div class="cube cube-row" id = "cube-58"><span class = "number"><p> 58</p></span></div>
+            <div class="cube cube-row" id = "cube-57"><span class = "number"><p> 57</p></span></div>
+            <div class="cube cube-row" id = "cube-56"><span class = "number"><p> 56</p></span></div>
+            <div class="cube cube-row snake-head" id = "cube-55"><span class = "number"><p> 55</p></span></div>
+            <div class="cube cube-row snake-tail" id = "cube-54"><span class = "number"><p> 54</p></span></div>
+            <div class="cube cube-row" id = "cube-53"><span class = "number"><p> 53</p></span></div>
+            <div class="cube cube-row" id = "cube-52"><span class = "number"><p> 52</p></span></div>
+            <div class="cube cube-row" id = "cube-51"><span class = "number"><p> 51</p></span></div>
+        </div><div class="row">
+            <div class="cube cube-row" id = "cube-41"><span class = "number"><p> 41</p></span></div>
+            <div class="cube cube-row ladder-start" id = "cube-42"><span class = "number"><p> 42</p></span></div>
+            <div class="cube cube-row" id = "cube-43"><span class = "number"><p> 43</p></span></div>
+            <div class="cube cube-row" id = "cube-44"><span class = "number"><p> 44</p></span></div>
+            <div class="cube cube-row" id = "cube-45"><span class = "number"><p> 45</p></span></div>
+            <div class="cube cube-row" id = "cube-46"><span class = "number"><p> 46</p></span></div>
+            <div class="cube cube-row" id = "cube-47"><span class = "number"><p> 47</p></span></div>
+            <div class="cube cube-row" id = "cube-48"><span class = "number"><p> 48</p></span></div>
+            <div class="cube cube-row" id = "cube-49"><span class = "number"><p> 49</p></span></div>
+            <div class="cube cube-row" id = "cube-50"><span class = "number"><p> 50</p></span></div>
+        </div><div class="row">
+            <div class="cube cube-row" id = "cube-40"><span class = "number"><p> 40</p></span></div>
+            <div class="cube cube-row" id = "cube-39"><span class = "number"><p> 39</p></span></div>
+            <div class="cube cube-row" id = "cube-38"><span class = "number"><p> 38</p></span></div>
+            <div class="cube cube-row" id = "cube-37"><span class = "number"><p> 37</p></span></div>
+            <div class="cube cube-row" id = "cube-36"><span class = "number"><p> 36</p></span></div>
+            <div class="cube cube-row" id = "cube-35"><span class = "number"><p> 35</p></span></div>
+            <div class="cube cube-row" id = "cube-34"><span class = "number"><p> 34</p></span></div>
+            <div class="cube cube-row" id = "cube-33"><span class = "number"><p> 33</p></span></div>
+            <div class="cube cube-row" id = "cube-32"><span class = "number"><p> 32</p></span></div>
+            <div class="cube cube-row ladder-end" id = "cube-31"><span class = "number"><p> 31 </p></span></div>
+        </div><div class="row">
+            <div class="cube cube-row" id = "cube-21"><span class = "number"><p> 21 </p></span></div>
+            <div class="cube cube-row" id = "cube-22"><span class = "number"><p> 22 </p></span></div>
+            <div class="cube cube-row" id = "cube-23"><span class = "number"><p> 23 </p></span></div>
+            <div class="cube cube-row snake-head" id = "cube-24"><span class = "number"><p> 24 </p></span></div>
+            <div class="cube cube-row" id = "cube-25"><span class = "number"><p> 25</p></span></div>
+            <div class="cube cube-row" id = "cube-26"><span class = "number"><p> 26</p></span></div>
+            <div class="cube cube-row" id = "cube-27"><span class = "number"><p> 27</p></span></div>
+            <div class="cube cube-row" id = "cube-28"><span class = "number"><p> 28</p></span></div>
+            <div class="cube cube-row snake-tail" id = "cube-29"><span class = "number"><p> 29</p></span></div>
+            <div class="cube cube-row" id = "cube-30"><span class = "number"><p> 30</p></span></div>
+        </div><div class="row">
+            <div class="cube cube-row" id = "cube-20"><span class = "number"><p> 20 </p></span></div>
+            <div class="cube cube-row" id = "cube-19"><span class = "number"><p> 19 </p></span></div>
+            <div class="cube cube-row" id = "cube-18"><span class = "number"><p> 18 </p></span></div>
+            <div class="cube cube-row" id = "cube-17"><span class = "number"><p> 17 </p></span></div>
+            <div class="cube cube-row" id = "cube-16"><span class = "number"><p> 16 </p></span></div>
+            <div class="cube cube-row ladder-start" id = "cube-15"><span class = "number"><p> 15 </p></span></div>
+            <div class="cube cube-row" id = "cube-14"><span class = "number"><p> 14 </p></span></div>
+            <div class="cube cube-row snake-tail" id = "cube-13"><span class = "number"><p> 13 </p></span></div>
+            <div class="cube cube-row" id = "cube-12"><span class = "number"><p> 12 </p></span></div>
+            <div class="cube cube-row" id = "cube-11"><span class = "number"><p> 11 </p></span></div>
+        </div><div class="row">
+            <div class="cube cube-row snake-tail" id = "cube-1"><span class = "number"><p> 1 </p></span></div>
+            <div class="cube cube-row" id = "cube-2"><span class = "number"><p> 2 </p></span></div>
+            <div class="cube cube-row" id = "cube-3"><span class = "number"><p> 3 </p></span></div>
+            <div class="cube cube-row" id = "cube-4"><span class = "number"><p> 4 </p></span></div>
+            <div class="cube cube-row" id = "cube-5"><span class = "number"><p> 5 </p></span></div>
+            <div class="cube cube-row snake-tail" id = "cube-6"><span class = "number"><p> 6 </p></span></div>
+            <div class="cube cube-row" id = "cube-7"><span class = "number"><p> 7 </p></span></div>
+            <div class="cube cube-row ladder-start" id = "cube-8"><span class = "number"><p> 8 </p></span></div>
+            <div class="cube cube-row" id = "cube-9"><span class = "number"><p> 9 </p></span></div>
+            <div class="cube cube-row" id = "cube-10" ><span class = "number"><p> 10 </p></span></div>
+        </div>
+    </div>
+    <div class="dice" id = "dice">
+        <button onclick="rollTheDice(); startGame(); onGoing();" class = "dicebutn" id="dicebutn" value="rollTheDice()"></button>
+    </div>
+</body>
+</html>
